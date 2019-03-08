@@ -3,7 +3,7 @@ const path = require('path')
 const url = require('url')
 
 // init win
-let win;
+let win
 
 function createWindow(){
     // Create browser window
@@ -21,7 +21,7 @@ function createWindow(){
     }))
 
     // Open devtools
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
 
     win.on('closed', () => {
         win = null

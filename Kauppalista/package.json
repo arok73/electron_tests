@@ -1,0 +1,14 @@
+{
+  "name": "kauppalista",
+  "version": "1.0.0",
+  "description": "Ostoslista ohjelma",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ari Oksanen",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.8"
+  }
+}
