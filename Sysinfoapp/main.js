@@ -3,7 +3,7 @@ const path = require('path')
 const url = require('url')
 
 // init win
-let win
+let win;
 
 function createWindow(){
     // Create browser window
